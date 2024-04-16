@@ -12,7 +12,8 @@ Programming language Used:
 HTML
 CSS
 JavaScript
-How to Use
+
+How to Use:
 
 Clone this repository to your local machine.
 Open the Portfolio1.html file in your web browser to view the portfolio.
