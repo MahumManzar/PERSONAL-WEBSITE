@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="Portfolio1.css"/>
+    <script src="Portfolio1.js"></script>
+    <title>Demo Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">My Portfolio</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check"/>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Resume</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="section">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">HELLO</p>
+          <h1 class="title">
+            I'm <span>Mahum<br />an</span> Undergrad Student at York University
+          </h1>
+          <p class="description">
+            Welcome to my web developer portfolio! 
+            I'm Mahum Manzar. I'm currently an undergraduate student at York University, 
+            pursuing a degree in Earth and Atmospheric science. My interest
+            in coding started in high school, where I began exploring languages
+            like Python, CSS, HTML, and JavaScript. This passion for programming
+            continued into university, where I've taken various computer science
+            courses to expand my knowledge. In addition to Python and web development
+            technologies, I've also delved into Java. Outside of academic pursuits, I 
+            enjoy working on diverse coding projects whenever I find the time, as they 
+            provide me with opportunities to learn and apply new skills.
+          </p>
+          <div class="action__btns">
+            <button id="hireMeBtn" class="hire__me" onclick="redirectToLinkedIn()">Hire Me</button>
+            <button id="projectsBtn" class="projects" onclick="redirectToProjects()">Projects</button>
+          </div>
+        </div>
+        <div class="image">
+          <img src="Images/IMG_8661.jpeg" alt="profile"/>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
